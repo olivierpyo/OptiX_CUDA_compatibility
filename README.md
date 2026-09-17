@@ -1,6 +1,7 @@
 # OptiX compatibility
 
 | OptiX family | Driver | GPU min | GPU officially supported | CUDA min | CUDA recommended | CUDA max |
+| --- | --- | --- | --- | --- | --- | --- |
 | 9.1 | R590+ | Turing 7.5+ | Blackwell 10.0 | 12.0 | 13.0 | 13.x | 
 | 9.0 | R570+ | Turing 7.5+ | Blackwell 10.0 | 12.0 | 12.8 | 12.x | 
 | 8.1 | R555+ | Maxwell 5.0+ | Ada Lovelace 8.9 | 11.x | 12.0 | 12.x | 
@@ -21,6 +22,7 @@ PS : at OptiX 8.0+, you need win 8.1+ or linux rhel 4.8+ or ubuntu 10.10+
 GPU version, summarized for GeForce category :
 
 | Micro-architecture | Compute capability (version) | GeForce products |
+| --- | --- | --- |
 | Maxwell | 5.x | GTX 750-980 |
 | Pascal | 6.x | GTX 1010-1080 |
 | Volta | 7.0-7.2 | TITAN V |
@@ -32,6 +34,7 @@ GPU version, summarized for GeForce category :
 # CUDA to GCC compatibility
 
 | CUDA family | GCC supported range |
+| --- | --- |
 | 7.x | 4.8-4.9 |
 | 8.x | 4.8-5.x |
 | 9.0 | 4.8-6.x |
