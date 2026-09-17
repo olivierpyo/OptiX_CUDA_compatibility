@@ -31,6 +31,9 @@ GPU version, summarized for GeForce category :
 | Ada Loveace | 8.9 | RTX 4050-4090 |
 | Blackwell | 10.0-12.1 | RTX 5050-5090 |
 
+Full list here :
+https://en.wikipedia.org/wiki/CUDA#GPUs_supported
+
 # CUDA to GCC compatibility
 
 | CUDA family | GCC min | GCC max |
