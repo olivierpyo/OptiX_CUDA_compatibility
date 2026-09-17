@@ -1,6 +1,6 @@
 # OptiX compatibility
 
-| OptiX family | Driver | GPU min | GPU officially supported | CUDA min | CUDA recommended | CUDA max |
+| OptiX family | Driver min | GPU min | GPU officially supported | CUDA min | CUDA recommended | CUDA max |
 | --- | --- | --- | --- | --- | --- | --- |
 | 9.1 | R590+ | Turing 7.5+ | Blackwell 10.0 | 12.0 | 13.0 | 13.x | 
 | 9.0 | R570+ | Turing 7.5+ | Blackwell 10.0 | 12.0 | 12.8 | 12.x | 
@@ -34,7 +34,9 @@ GPU version, summarized for GeForce category :
 Full list here :
 https://en.wikipedia.org/wiki/CUDA#GPUs_supported
 
-# CUDA to GCC compatibility
+# CUDA to GCC compatibility for NVCC compiler driver
+
+Warning : `nvidia-smi` and `nvcc --version` might show a different CUDA version. The smi will show "max cuda", meanwhile nvcc will show your current cuda version.
 
 | CUDA family | GCC min | GCC max |
 | --- | --- | --- |
